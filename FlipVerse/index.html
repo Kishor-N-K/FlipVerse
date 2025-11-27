@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>FlipVerse</title>
+     <link rel="icon" type="image/png" href="assets/logo.png" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css" />
+     <script defer src="index.js"></script>
+
+</head>
+<body class="dark">
+
+  <!-- Title outside the card -->
+  <div class="title">FlipVerse</div>
+
+  <!-- Card containing only toggle + coin + button -->
+  <div class="card">
+    <body class="dark">
+  <div class="toggle" id="themeToggle">🌙</div>
+
+
+    <div class="coin-wrapper">
+      <div class="coin" id="coin">
+        <div class="face heads"></div>
+        <div class="face tails"></div>
+      </div>
+    </div>
+
+    <button class="btn" id="flipBtn">Flip Coin</button>
+
+    <audio id="flipSound" src="assets/flip.mp3" preload="auto"></audio>
+  </div>
+  <div id="message">Flip to see </div>
+  <div id="tagline"></div>
+
+</body>
+</html>
