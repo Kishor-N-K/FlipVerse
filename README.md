@@ -22,8 +22,9 @@ A premium and realistic Indian coin flip web app with sound effects, animations,
 <br>
 
 ## 🖥 Live Demo
+**Hosted on Netlify:** <a href="https://flipversepro.netlify.app/">Click for Demo</a>
 
-🔗 **Hosted on Vercel:** 
+
 
 ## Technology Stack
 
@@ -32,7 +33,7 @@ A premium and realistic Indian coin flip web app with sound effects, animations,
 | HTML5 | Structure and layout |
 | CSS3 | Styling and UI design |
 | JavaScript | Logic and animations |
-| Vercel | Deployment |
+| Netlify | Deployment |
 | GitHub | Version control |
 
 ## Project Structure
